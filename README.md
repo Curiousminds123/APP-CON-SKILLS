@@ -1,53 +1,40 @@
-# 🎓 TeacherAI - Plataforma de Herramientas IA para Docentes
+# TeacherAI - Plataforma Educativa
 
-<div align="center">
-  
-![TeacherAI](https://img.shields.io/badge/TeacherAI-v1.0-blue)
-![Licencia](https://img.shields.io/badge/Licencia-CC%20BY--SA-green)
-![Estado](https://img.shields.io/badge/Estado-Activo-brightgreen)
+Plataforma de herramientas educativas impulsadas por inteligencia artificial para docentes.
 
-**Herramientas inteligentes que generan cursos, juegos, evaluaciones y materiales educativos en minutos**
+## Descripción
 
-[🌐 Ver Live](#) • [📚 Documentación](#) • [🐛 Reportar Bug](#) • [✨ Sugerir Feature](#)
+TeacherAI es una solución integral para crear y gestionar materiales educativos de forma automatizada y personalizada.
 
-</div>
+## Capacidades Principales
 
----
+- Generación automática de cursos estructurados
+- Creación de ejercicios y evaluaciones interactivas
+- Herramientas de apoyo pedagógico
+- Integración con sistemas de gestión de aprendizaje (LMS)
+- Accesibilidad universal integrada
 
-## 🚀 ¿Qué es TeacherAI?
+## Instalación
 
-TeacherAI es una plataforma completa impulsada por IA que ayuda a docentes a crear materiales educativos de calidad en minutos. Con **15+ skills especializadas** y **10 agentes IA expertos**, genera:
-
-✅ **Cursos completos** con estructura de aula virtual  
-✅ **Juegos educativos** gamificados (Pasapalabra, Escape Room, Trivia, etc.)  
-✅ **Práctica de conversación en inglés** con feedback automático  
-✅ **Evaluaciones rigurosas** con rúbricas inteligentes  
-✅ **Entrenamientoen pensamiento crítico**  
-✅ **Prompts educativos personalizados**  
-
-Todo diseñado con **rigor pedagógico**, alineado a **LOMLOE/MCER**, y con **accesibilidad 100% integrada**.
-
----
-
-## 🌟 Características Principales
-
-### 6 Herramientas Destacadas
-
-| Herramienta | Función | Tiempo | Salida |
-|---|---|---|---|
-| **📚 ProfesorIA Virtual** | Genera cursos completos | 15 min | Aula virtual + PDF + SCORM |
-| **🎮 Game Builder** | Crea juegos educativos | 10 min | Juego HTML playable |
-| **🗣️ English Coach** | Práctica conversacional | 20 min | 2 reportes PDF |
-| **✏️ EduPrompt** | Diseña prompts pedagógicos | 8 min | Prompt personalizado |
-| **🧠 Abogado del Diablo** | Entrena pensamiento crítico | 25 min | Análisis + evaluación |
-| **📝 Writing Coach** | Evalúa escritura en inglés | 12 min | Feedback + ejercicios |
-
-### 10 Agentes IA Especializados
-
-Cada uno es experto en su dominio pedagógico:
-
+```bash
+git clone <repositorio>
+cd APP-CON-SKILLS
+npm install
 ```
-01. Rubrics Agent - Rúbricas de evaluación
+
+## Uso Local
+
+```bash
+npm start
+```
+
+Luego abre `index.html` en tu navegador.
+
+## Requisitos
+
+- Node.js 16+
+- Navegador moderno
+- Editor de código
 02. Writing Corrector - Análisis de textos
 03. Presentation Designer - Presentaciones interactivas
 04. Prompt Engineer - Diseño de prompts

@@ -8,3 +8,7 @@ build/
 .idea/
 *.pyc
 __pycache__/
+private/
+.git-crypt/
+secrets/
+

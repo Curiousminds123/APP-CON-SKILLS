@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TeacherAI - Plataforma de herramientas IA para docentes. Crea cursos, juegos, evaluaciones y más.">
+    <title>TeacherAI - Herramientas IA para Docentes</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans+Condensed:wght@300;400;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-graduation-cap"></i>
+                <span>TeacherAI</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#herramientas" class="nav-link">Herramientas</a>
+                <a href="#agentes" class="nav-link">Agentes</a>
+                <a href="#caracteristicas" class="nav-link">Características</a>
+                <a href="#recursos" class="nav-link">Recursos</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="section-subtitle">IA para educación</div>
+            <h1>Herramientas inteligentes para docentes</h1>
+            <p>Plataforma completa de IA que genera cursos, juegos, evaluaciones y materiales educativos personalizados en minutos. Diseñado con rigor pedagógico y accesibilidad total.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary btn-lg" onclick="document.getElementById('herramientas').scrollIntoView({behavior: 'smooth'})">
+                    <i class="fas fa-rocket"></i> Explorar herramientas
+                </button>
+                <button class="btn btn-secondary btn-lg" onclick="window.open('https://github.com/Curiousminds123/APP-CON-SKILLS', '_blank')">
+                    <i class="fas fa-github"></i> Ver en GitHub
+                </button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <i class="fas fa-brain"></i>
+        </div>
+    </section>
+
+    <!-- Estadísticas -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Skills especializadas</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">10</div>
+                    <div class="stat-label">Agentes IA expertos</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">170K</div>
+                    <div class="stat-label">Líneas de código</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Accesible (WCAG AA)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Herramientas Principales -->
+    <section id="herramientas" class="alternate">
+        <div class="container">
+            <div class="section-title">
+                <div class="section-subtitle">Las 6 herramientas principales</div>
+                <h2>Todo lo que necesitas para enseñar mejor</h2>
+                <p>Cada herramienta está diseñada por expertos pedagógicos y potenciada con IA de última generación</p>
+            </div>
+
+            <div class="resource-grid">
+                <!-- ProfesorIA Virtual -->
+                <div class="resource-card">
+                    <div class="resource-header">
+                        <div class="resource-icon">📚</div>
+                    </div>
+                    <div class="resource-body">
+                        <span class="resource-label">Cursos</span>
+                        <h3 class="resource-title">ProfesorIA Virtual</h3>
+                        <p class="resource-description">Genera cursos completos con estructura de aula virtual, lecciones, actividades y evaluaciones en minutos.</p>
+                        <ul class="resource-features">
+                            <li>8 unidades temáticas</li>
+                            <li>30+ lecciones personalizadas</li>
+                            <li>Rúbricas automáticas</li>
+                            <li>Exporta PDF + SCORM</li>
+                        </ul>
+                    </div>
+                    <div class="resource-footer">
+                        <span class="resource-meta">
+                            <i class="fas fa-clock"></i> 15 min
+                        </span>
+                        <a href="#" class="resource-link">Usar →</a>
+                    </div>
+                </div>
+
+                <!-- Game Builder -->
+                <div class="resource-card">
+                    <div class="resource-header">
+                        <div class="resource-icon">🎮</div>
+                    </div>
+                    <div class="resource-body">
+                        <span class="resource-label">Juegos</span>
+                        <h3 class="resource-title">Game Builder</h3>
+                        <p class="resource-description">Crea juegos educativos gamificados (Pasapalabra, Escape Room, Trivia, etc.) para cualquier contenido.</p>
+                        <ul class="resource-features">
+                            <li>10+ tipos de juegos</li>
+                            <li>Mecánicas gamificadas</li>
+                            <li>Responsive y playable</li>
+                            <li>Reportes de desempeño</li>
+                        </ul>
+                    </div>
+                    <div class="resource-footer">
+                        <span class="resource-meta">
+                            <i class="fas fa-clock"></i> 10 min
+                        </span>
+                        <a href="#" class="resource-link">Usar →</a>
+                    </div>
+                </div>
+
+                <!-- English Conversation Coach -->
+                <div class="resource-card">
+                    <div class="resource-header">
+                        <div class="resource-icon">🗣️</div>
+                    </div>
+                    <div class="resource-body">
+                        <span class="resource-label">Idiomas</span>
+                        <h3 class="resource-title">English Coach</h3>
+                        <p class="resource-description">Práctica de conversación en inglés realista con feedback instantáneo y reportes automáticos.</p>
+                        <ul class="resource-features">
+                            <li>6 escenarios reales</li>
+                            <li>Niveles A1-C2 (MCER)</li>
+                            <li>Feedback adaptativo</li>
+                            <li>2 reportes PDF</li>
+                        </ul>
+                    </div>
+                    <div class="resource-footer">
+                        <span class="resource-meta">
+                            <i class="fas fa-clock"></i> 20 min
+                        </span>
+                        <a href="#" class="resource-link">Usar →</a>
+                    </div>
+                </div>
+
+                <!-- EduPrompt Specialist -->
+                <div class="resource-card">
+                    <div class="resource-header">
+                        <div class="resource-icon">✏️</div>
+                    </div>
+                    <div class="resource-body">
+                        <span class="resource-label">Prompts</span>
+                        <h3 class="resource-title">EduPrompt Specialist</h3>
+                        <p class="resource-description">Diseña prompts educativos efectivos mediante exploración guiada. Alineado a LOMLOE automáticamente.</p>
+                        <ul class="resource-features">
+                            <li>10+ tipos de prompts</li>
+                            <li>Exploración pedagógica</li>
+                            <li>Variantes personalizadas</li>
+                            <li>Alineación LOMLOE</li>
+                        </ul>
+                    </div>
+                    <div class="resource-footer">
+                        <span class="resource-meta">
+                            <i class="fas fa-clock"></i> 8 min
+                        </span>
+                        <a href="#" class="resource-link">Usar →</a>
+                    </div>
+                </div>
+
+                <!-- Critical Thinking Advocate -->
+                <div class="resource-card">
+                    <div class="resource-header">
+                        <div class="resource-icon">🧠</div>
+                    </div>
+                    <div class="resource-body">
+                        <span class="resource-label">Debate</span>
+                        <h3 class="resource-title">Abogado del Diablo</h3>
+                        <p class="resource-description">Entrena pensamiento crítico a través de 6 fases de análisis, detección de falacias y debate.</p>
+                        <ul class="resource-features">
+                            <li>6 fases de análisis</li>
+                            <li>Detección de falacias</li>
+                            <li>Cambio de perspectiva</li>
+                            <li>Evaluación de habilidades</li>
+                        </ul>
+                    </div>
+                    <div class="resource-footer">
+                        <span class="resource-meta">
+                            <i class="fas fa-clock"></i> 25 min
+                        </span>
+                        <a href="#" class="resource-link">Usar →</a>
+                    </div>
+                </div>
+
+                <!-- Writing Coach -->
+                <div class="resource-card">
+                    <div class="resource-header">
+                        <div class="resource-icon">📝</div>
+                    </div>
+                    <div class="resource-body">
+                        <span class="resource-label">Evaluación</span>
+                        <h3 class="resource-title">Writing Coach</h3>
+                        <p class="resource-description">Corrige escritura en inglés con feedback detallado. Genera ejercicios personalizados de consolidación.</p>
+                        <ul class="resource-features">
+                            <li>Análisis detallado</li>
+                            <li>Feedback por categoría</li>
+                            <li>Ejercicios personalizados</li>
+                            <li>Reportes estudiante + profesor</li>
+                        </ul>
+                    </div>
+                    <div class="resource-footer">
+                        <span class="resource-meta">
+                            <i class="fas fa-clock"></i> 12 min
+                        </span>
+                        <a href="#" class="resource-link">Usar →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agentes IA -->
+    <section id="agentes">
+        <div class="container">
+            <div class="section-title">
+                <div class="section-subtitle">Los 10 agentes IA especializados</div>
+                <h2>Expertos en cada área educativa</h2>
+                <p>Cada agente es un especialista entrenado en su dominio pedagógico específico</p>
+            </div>
+
+            <div class="resource-grid">
+                <div class="agent-card">
+                    <div class="agent-number">01</div>
+                    <h4>Rubrics Agent</h4>
+                    <p>Genera rúbricas de evaluación basadas en competencias con descriptores claros.</p>
+                    <span class="badge badge-primary">Evaluación</span>
+                </div>
+                <div class="agent-card">
+                    <div class="agent-number">02</div>
+                    <h4>Writing Corrector</h4>
+                    <p>Analiza escritura detalladamente con feedback riguroso y ejercicios.</p>
+                    <span class="badge badge-primary">Idiomas</span>
+                </div>
+                <div class="agent-card">
+                    <div class="agent-number">03</div>
+                    <h4>Presentation Designer</h4>
+                    <p>Crea presentaciones interactivas con diseño moderno y contenido estructurado.</p>
+                    <span class="badge badge-primary">Recursos</span>
+                </div>
+                <div class="agent-card">
+                    <div class="agent-number">04</div>
+                    <h4>Prompt Engineer</h4>
+                    <p>Diseña prompts educativos efectivos mediante exploración guiada.</p>
+                    <span class="badge badge-primary">Prompts</span>
+                </div>
+                <div class="agent-card">
+                    <div class="agent-number">05</div>
+                    <h4>Lesson Planner</h4>
+                    <p>Planifica secuencias didácticas completas de 3-5 sesiones.</p>
+                    <span class="badge badge-primary">Planificación</span>
+                </div>
+                <div class="agent-card">
+                    <div class="agent-number">06</div>
+                    <h4>Quiz Generator</h4>
+                    <p>Crea cuestionarios interactivos con múltiples formatos y reportes.</p>
+                    <span class="badge badge-primary">Evaluación</span>
+                </div>
+                <div class="agent-card">
+                    <div class="agent-number">07</div>
+                    <h4>Simulator Agent</h4>
+                    <p>Simula conceptos científicos de forma interactiva y visual.</p>
+                    <span class="badge badge-primary">Ciencias</span>
+                </div>
+                <div class="agent-card">
+                    <div class="agent-number">08</div>
+                    <h4>Language Reader</h4>
+                    <p>Especializado en adquisición de idiomas con adaptación por nivel MCER.</p>
+                    <span class="badge badge-primary">Idiomas</span>
+                </div>
+                <div class="agent-card">
+                    <div class="agent-number">09</div>
+                    <h4>Interactive Exercise</h4>
+                    <p>Crea ejercicios gamificados e interactivos de cualquier tipo.</p>
+                    <span class="badge badge-primary">Juegos</span>
+                </div>
+                <div class="agent-card">
+                    <div class="agent-number">10</div>
+                    <h4>SCORM Packager</h4>
+                    <p>Empaqueta cursos para LMS (Moodle, Canvas, Blackboard).</p>
+                    <span class="badge badge-primary">LMS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características -->
+    <section id="caracteristicas" class="alternate">
+        <div class="container">
+            <div class="section-title">
+                <div class="section-subtitle">Por qué TeacherAI</div>
+                <h2>Características diseñadas para docentes</h2>
+            </div>
+
+            <div class="features-list">
+                <div class="feature-item">
+                    <div class="feature-icon">🎓</div>
+                    <div class="feature-content">
+                        <h4>Pedagógicamente riguroso</h4>
+                        <p>Diseñado por expertos en educación. Alineado a LOMLOE, MCER, competencias clave y DUA.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">⚡</div>
+                    <div class="feature-content">
+                        <h4>Generación instantánea</h4>
+                        <p>De cero a material completo en minutos. Ahorra decenas de horas de preparación.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">♿</div>
+                    <div class="feature-content">
+                        <h4>100% Accesible</h4>
+                        <p>DUA integrado en cada herramienta. Múltiples medios, formas de acción e implicación.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">📊</div>
+                    <div class="feature-content">
+                        <h4>Reportes inteligentes</h4>
+                        <p>Seguimiento real del progreso. Análisis por competencia, habilidad y estudiante.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">🌐</div>
+                    <div class="feature-content">
+                        <h4>Totalmente gratuito</h4>
+                        <p>Acceso abierto con licencia CC BY-SA. Comunidad de docentes compartiendo recursos.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">🤝</div>
+                    <div class="feature-content">
+                        <h4>Comunidad activa</h4>
+                        <p>Docentes compartiendo recursos, mejorando herramientas y colaborando en desarrollo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cómo funciona -->
+    <section id="como-funciona">
+        <div class="container">
+            <div class="section-title">
+                <div class="section-subtitle">El proceso es simple</div>
+                <h2>3 pasos para empezar</h2>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h4>Elige una herramienta</h4>
+                    <p>Selecciona entre las 6 herramientas principales según tu necesidad: cursos, juegos, evaluación, etc.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h4>Responde preguntas</h4>
+                    <p>El sistema te hace preguntas guiadas para entender tu contexto pedagógico específico.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h4>Descarga y usa</h4>
+                    <p>Obtienes archivos listos para usar: HTML, PDF, SCORM. Personaliza si deseas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stack Técnico -->
+    <section id="recursos" class="alternate">
+        <div class="container">
+            <div class="section-title">
+                <div class="section-subtitle">Stack tecnológico</div>
+                <h2>Tecnología moderna y escalable</h2>
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <h4>Frontend</h4>
+                    <ul>
+                        <li>HTML5 + CSS3</li>
+                        <li>JavaScript vanilla</li>
+                        <li>TailwindCSS (CDN)</li>
+                        <li>Responsive design</li>
+                    </ul>
+                </div>
+
+                <div class="tech-item">
+                    <h4>IA & APIs</h4>
+                    <ul>
+                        <li>Google Gemini API</li>
+                        <li>Google Search integrado</li>
+                        <li>Procesamiento NLP</li>
+                        <li>Generación de contenido</li>
+                    </ul>
+                </div>
+
+                <div class="tech-item">
+                    <h4>Exportación</h4>
+                    <ul>
+                        <li>HTML/CSS/JS playable</li>
+                        <li>PDF con Chromium</li>
+                        <li>SCORM 1.2 / 2004</li>
+                        <li>ZIP descargable</li>
+                    </ul>
+                </div>
+
+                <div class="tech-item">
+                    <h4>Hosting</h4>
+                    <ul>
+                        <li>Vercel / Netlify</li>
+                        <li>Cloud Run (backend)</li>
+                        <li>GitHub para versionado</li>
+                        <li>Base de datos escalable</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-box">
+                <h2>¿Listo para revolucionar tu enseñanza?</h2>
+                <p>Únete a docentes que ya están usando TeacherAI para crear materiales mejor y más rápido.</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary btn-lg">
+                        <i class="fas fa-star"></i> Comenzar ahora (gratis)
+                    </button>
+                    <button class="btn btn-secondary btn-lg" onclick="window.open('https://github.com/Curiousminds123/APP-CON-SKILLS', '_blank')">
+                        <i class="fas fa-code"></i> Ver código fuente
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>TeacherAI</h4>
+                    <p>Plataforma de herramientas IA para docentes. Diseñado con rigor pedagógico y accesibilidad total.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/Curiousminds123/APP-CON-SKILLS" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Herramientas</h4>
+                    <ul>
+                        <li><a href="#">ProfesorIA Virtual</a></li>
+                        <li><a href="#">Game Builder</a></li>
+                        <li><a href="#">English Coach</a></li>
+                        <li><a href="#">EduPrompt</a></li>
+                        <li><a href="#">Abogado del Diablo</a></li>
+                        <li><a href="#">Writing Coach</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Documentación</h4>
+                    <ul>
+                        <li><a href="#">Inicio rápido</a></li>
+                        <li><a href="#">Guías completas</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Ejemplos</a></li>
+                        <li><a href="#">Casos de uso</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Comunidad</h4>
+                    <ul>
+                        <li><a href="#">Recursos compartidos</a></li>
+                        <li><a href="#">Contribuir</a></li>
+                        <li><a href="#">Reportar bug</a></li>
+                        <li><a href="#">Sugerir feature</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2024 TeacherAI. Licencia CC BY-SA. Hecho con ❤️ para docentes que quieren enseñar mejor.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
